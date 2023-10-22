@@ -1,0 +1,755 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans',sans-serif;;
+}
+
+body{
+    background-color: #1B1F24;
+    background-attachment: fixed;
+}
+    
+    /* Navigation Bar */
+.navbar{
+    position:absolute;
+    left:0px;
+    right:0px;
+    margin-top: 10px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+}
+      
+.navbar h3{
+    padding: 5px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.navbar.logo{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    display: flex;
+    margin: 2px;
+    align-items: left;
+    overflow:hidden;
+    display: inline-block;
+}
+
+.navbar ul li a:link,a:visited{
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.navbar ul li button{
+    background-color: #01C29A;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    cursor: pointer;
+}
+
+    /* Navigation Bar */
+
+    /*Header*/
+.header{
+    background:url('Pattern.png') no-repeat;
+    width: 100%;
+    height: 700px;
+    top: 1200px;
+}
+
+.left{
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    top: 200px;
+    left: 64px;
+    opacity: 0.5;
+    margin: 50px auto; 
+    text-align: left;
+    font-style: normal;
+    color: rgba(255, 255, 255);
+}
+    
+.left h2{    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+}
+    
+.left h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+    
+.left h3{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+}
+    
+.left .btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    gap: 10px;
+    top: 230px;
+}
+    
+.left .btn .btn1{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    background: #01C29A;
+    color: black;
+}
+    
+.left .btn .btn2{
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    border: 2.5px solid #01C29A;
+    background: #1B1F24;
+    color: white;
+}
+  
+.left .box{
+    width: 80px;
+    height: 80px;
+    float:left;
+    margin:40px 20px;
+    padding: 30px;
+    left: 64px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+    
+.left .box h3{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+    
+.left .box .vl{
+    position: absolute;
+    display: flex;
+    border-left: 6px solid #FFFFFF;
+    height: 500px;
+    padding: 10px;
+    }
+    
+.right{
+    position: absolute;
+    width: 668px;
+    height: 397px;
+    left: 708px;
+    top: 203px;
+    background: url('Rectangle 99.png');
+}
+    /*Header*/
+    
+    /*Services*/
+.services{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    margin: 50px auto; 
+    font-style: normal;
+    color: #FFFFFF;
+}
+    
+.services h2{
+    text-align: center;
+    top: 898px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    font-variant: small-caps;
+}
+    
+.services h1{
+    text-align: center;
+    top: 934px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+    
+.services h3{
+    text-align: center;
+    top: 1008px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+    
+    /*Services box*/
+.services .box{
+    width: 310px;
+    height: 480px;
+    float:left;
+    margin:20px 10px;
+    padding: 20px;
+    left: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.box:hover{
+    background: #01C29A; 
+    cursor: pointer;
+    z-index: 2;
+}
+
+.services .box .cycle{
+    background-color: #01C29A;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 26px;
+}
+    
+.services .box h2{ 
+    text-align: left;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.services .box h3{
+    text-align: left;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+    
+    /*Services box*/
+    
+    /*Services*/
+    
+    /*About Us*/
+.about{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 1700px;
+    margin: 50px auto; 
+    font-style: normal;
+    color: #FFFFFF;
+}    
+
+.about h2{
+    text-align: center;
+    top: 898px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    font-variant: small-caps;
+}
+    
+.about h1{
+    text-align: center;
+    top: 934px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+    
+.about h3{
+    text-align: center;
+    top: 1008px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.about .box_1{
+    width: 600px;
+    height: 750px;
+    float:left;
+    margin:5px;
+    padding: 5px;
+    left: 64px;
+    border-radius: 10px;
+    align-items: center;
+}
+ 
+.about .box_1 .img{
+    background: url('Rectangle 117.png') no-repeat;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    margin: 30px 20px 30px;
+    width: 500px;
+    height: 750px;
+    border-radius: 10px;
+}
+
+.about .box_1 .line1{
+    width: 400px;
+    border: 10px solid white;
+    margin: 20px 20px;
+}
+
+.about .box_1 .line2{
+    width: 200px;
+    border: 10px solid white;
+    margin: 20px 20px;
+}
+
+.about .box_1 .line3{
+    position: absolute;
+    width: 400px;
+    border: 10px solid white;
+    margin: 20px 20px;
+    top: 840px;
+    left: 110px;
+}
+
+.about .box_1 .line4{
+    position: absolute;
+    width: 200px;
+    border: 10px solid white;
+    margin: 20px 20px;
+    top: 880px;
+    left: 310px;
+}
+
+.about .box_1 h3{ 
+    text-align: left;
+    padding: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+    
+.about .box_1 h2{
+    text-align: left;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+}
+.about .box_1 h4{
+    text-align: left;
+    padding: 5px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+      
+.about .box_1 .row{
+    width: 550px;
+    height: 130px;
+    margin: 2px;
+    padding: 2px;
+    left: 64px;
+    align-items: center;
+}
+    
+.about .box_1 .row .rectangle{
+    background-color: #01C29A;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .box_1 .row .rectangle img{
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.8); 
+    background: none;
+    z-index: 1;
+}
+
+.about .box_1 .row .text_1{
+    position: absolute;
+    float: left;
+    top: 400px;
+    right: 200px;
+    width: 450px;
+    height: 100px;
+    gap: 5px;
+}
+
+.about .box_1 .row .text_2{
+    position: absolute;
+    float: left;
+    top: 530px;
+    right: 200px;
+    width: 450px;
+    height: 100px;
+    gap: 5px;
+}
+
+.about .box_1 .row .text_3{
+    position: absolute;
+    float: left;
+    top: 670px;
+    right: 200px;
+    width: 450px;
+    height: 100px;
+    gap: 5px;
+}
+
+.about .box_1 .row h5{ 
+    padding: 2px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+    
+.about .box_1 .row h6{
+    text-align: left;
+    padding: 2px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+    /*About Us*/
+
+    /*Feedback*/
+.feedback{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 3100px;
+    margin: 50px auto; 
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.feedback h2{
+    text-align: center;
+    top: 898px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    font-variant: small-caps;
+}
+    
+.feedback h1{
+    text-align: center;
+    top: 934px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+    
+.feedback h3{
+    text-align: center;
+    top: 1008px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+    
+.feedback .box_1{
+    width: 410px;
+    height: 520px;
+    float:left;
+    margin:20px 10px;
+    padding: 20px;
+    left: 64px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedback .box_1 h2{ 
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+    
+.feedback .box_1 h3{
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.feedback .box_1 h4{
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.feedback .box_1 .center{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    /*Feedback*/
+
+    /*Contact*/
+.contact{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: url('Rectangle 96.png');
+    background-size: cover;
+    top: 3200px;
+    width: 100%;
+    height: 500px;
+}
+
+.contact img {
+    max-width: 100%;
+}
+
+.contact .block{
+    position: absolute;
+    top:20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(250, 245, 245, 0.5);
+    background: none; 
+    color: #ffffff;
+    padding: 20px; 
+}
+
+.contact .block h3{
+    text-align: center;
+    background: none;
+    font-weight: 500;
+    gap: 10px;
+    font-size: 26px;
+    line-height: 32px;
+    font-variant: capitalize;
+}
+
+.contact .block h2{
+    text-align: center;
+    background: none;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    font-variant: capitalize;
+}
+
+.contact .input_container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.input_container .text-box {
+    height: 80px;
+    width: 700px;
+    padding: 10px;
+    padding-left: 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.input_container img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.input_container .action-button {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #01C29A;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+    /*Contact*/
+
+    /*Footer*/
+.footer{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 350px;
+    top: 4500px;
+    color: #FFFFFF;
+}   
+
+.footer .footer_box{
+    width: 310px;
+    height: 350px;
+    float:left;
+    margin:10px 5px;
+    padding: 20px;
+    left: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.footer .footer_box h3{
+    padding: 5px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.footer .footer_box .logo{
+    padding: 5px;
+}
+
+.footer .footer_box .line_container{
+    position: relative;
+    height: 2px;
+}
+
+.footer .footer_box .line1{
+    position: absolute;
+    width: 200px;
+    border: 2px solid white;
+}
+
+.footer .footer_box .line2{
+    position: absolute;
+    width: 50px;
+    border: 2px solid #01C29A;
+}
+
+.footer .footer_box h4{
+    top: 1008px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.footer .footer_box .center{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer .footer_box ul li{
+    list-style-type:none;
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer .footer_box ul li a{
+    position: relative;
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.footer .pageEndText{
+    margin-top: 5px;
+    padding: 5px;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+
+    /*Footer*/
